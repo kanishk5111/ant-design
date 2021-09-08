@@ -40,7 +40,7 @@ const Demo = () => {
   return (
     <>
       <Switch onChange={changeMode} /> Change Mode
-      <Divider type="vertical" />
+      <Divider type="inline" />
       <Switch onChange={changeTheme} /> Change Style
       <br />
       <br />
